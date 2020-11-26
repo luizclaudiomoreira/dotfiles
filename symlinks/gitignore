@@ -15,20 +15,27 @@
 tags
 Session.vim
 
-doc/
-tmp/
-log/*.log
+/* doc/ */
 coverage/
 
 public/uploads/*
+!public/uploads/.keep
 !public/uploads/.gitkeep
 
+log/*
+!log/.keep
+!log/.gitkeep
+
+tmp/*
+!tmp/.keep
+!tmp/.gitkeep
+
 *.sqlite3
-database.yml
+/* database.yml */
 
 .vagrant
 Vagrantfile
 provision.sh
 
-.ruby-version
-.ruby-gemset
+/* .ruby-version */
+/* .ruby-gemset */

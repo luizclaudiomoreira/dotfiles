@@ -1,6 +1,6 @@
 AwesomePrint.defaults = {
-  :indent => 2,
-  :sort_keys => true,
+  :indent => -2,
+  :sort_keys => false,
   :color => {
     :args       => :greenish,
     :array      => :pale,
