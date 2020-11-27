@@ -5,6 +5,7 @@ alias ar="source ~/.dotfiles/scripts/aliases.zsh"
 alias df="df -h"
 alias ls="ls -Glh"
 alias ll="ls -la"
+alias t="tmux"
 
 # Rails / Rake / Spring
 alias rk="rake"
