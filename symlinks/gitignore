@@ -8,6 +8,7 @@
 .DS_Store
 .rake_tasks
 .sass-cache
+.tool-versions
 .Spotlight-V100
 
 *.sw?
@@ -39,3 +40,6 @@ provision.sh
 
 /* .ruby-version */
 /* .ruby-gemset */
+
+
+env/development.json
